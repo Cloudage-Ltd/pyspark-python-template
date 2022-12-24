@@ -1,0 +1,10 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+pytest==5.3.5
+setuptools==60.0.5
+pylint==2.13.9
+requests==2.26.0
+pandas==1.1.5
+xlsxwriter==1.2.7
+autopep8==1.5.4
+pylint-junit==0.3.2
+great_expectations==0.14.2

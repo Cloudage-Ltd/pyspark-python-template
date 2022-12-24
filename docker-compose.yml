@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  asosinterviewinvscode:
+    image: asosinterviewinvscode
+    build:
+      context: .
+      dockerfile: ./Dockerfile

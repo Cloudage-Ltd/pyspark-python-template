@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: main_dataops.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

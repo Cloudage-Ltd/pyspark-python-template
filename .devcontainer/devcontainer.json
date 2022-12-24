@@ -1,0 +1,12 @@
+{
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-vscode.powershell",
+		"janisdd.vscode-edit-csv",
+		"eamodio.gitlens",
+		"ms-toolsai.jupyter",
+		"littlefoxteam.vscode-python-test-adapter"
+	]
+}
