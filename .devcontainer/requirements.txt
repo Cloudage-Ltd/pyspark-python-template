@@ -8,4 +8,4 @@ xlsxwriter==1.2.7
 autopep8==1.5.4
 pylint-junit==0.3.2
 great_expectations==0.14.2
-pyspark==3.0.1
+pyspark==3.2.0

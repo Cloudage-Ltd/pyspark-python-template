@@ -1,12 +1,11 @@
+ARG IMAGE_VARIANT=slim-buster
+ARG OPENJDK_VERSION=8
+
+
 # For more information, please refer to https://aka.ms/vscode-docker-python
 FROM python:3.8.12
-# FROM python=3.8.12
+# FROM openjdk:${OPENJDK_VERSION}-${IMAGE_VARIANT}
 
-# Keeps Python from generating .pyc files in the container
-ENV PYTHONDONTWRITEBYTECODE=1
-
-# Turns off buffering for easier container logging
-ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update
 RUN apt-get install default-jdk -y
@@ -30,5 +29,3 @@ USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 CMD ["python", "src/main.py"]
-
-
