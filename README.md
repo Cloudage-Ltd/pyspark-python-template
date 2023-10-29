@@ -18,6 +18,6 @@ This repository contains the core and most of the required dependencies to start
 3. As of this checkin date, this repo use **databricks.databricks** extentions to integrate and run pyspark code against Azure Databricks - and this extension is in **preview**.
 
 
-Contrats - You're all set!
+Congrats - You're all set!
 
 Your contributions are most welcome!
